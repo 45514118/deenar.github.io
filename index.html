@@ -6,6 +6,82 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<style>
+html {
+	margin:0;
+}
+body {
+	min-width:100vw;
+	min-height: 100vh;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	display: flex;
+  flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}	
+a, a:hover {
+	text-decoration:none;
+}
+.social-panel {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.social-button {
+	color: #ffffff;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	width: 8rem;
+	height: 8rem;
+	margin: 1rem;
+	border: 6px solid #ffffff;
+	border-radius: 50%;
+}
+.social-button.instagram:hover {
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.social-button.vk:hover {
+	background: #45668e;
+}
+.social-button.twitter:hover {
+	background: #1da1f2;
+}
+.social-button.mail:hover {
+	background: rgb(0, 95, 249)
+}
+.login {
+	position: absolute;
+	right: .65rem;
+	bottom: .5rem;
+}
+.login-button {
+	color: transparent;
+}
+.login-button:hover {
+	color: #ffffff;
+}
+::-webkit-scrollbar {
+	width: 0px;
+}
+::-webkit-scrollbar-track {
+	background: #ccc; 
+}
+::-webkit-scrollbar-thumb {
+	background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}
+</style>
 </head>
 <body>
 <div class="social-panel">
